@@ -11,7 +11,7 @@ h2{
 p{
     color: dimgrey;
 }
-.rim{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -29,7 +29,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -41,7 +41,7 @@ section{
 }
 .link-button2{
     text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(141, 141, 235),rgb(50, 50, 230));
+    background-image: linear-gradient(45deg, cyan,blue);
     padding: 10px 10px;
     border-radius: 5px;
     color: white;
@@ -51,4 +51,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+ 
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
 }
